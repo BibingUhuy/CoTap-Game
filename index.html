@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotap - Bhycero Group</title>
+    <link rel="stylesheet" href="lobby.css">
+    <!-- Link Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="signup/signup.html" id="signupButton">Signup</a>
+    </header>
+
+    <main>
+        <h1>🪙 CoTap 🪙</h1>
+        <h2 style="text-align: center; margin-bottom: 20px;">"Selamat Datang di Game Kami"</h2>
+        <h3 id="peringat">!!! PERINGATAN !!!</h3>
+        <p>Signup Terlebih Dahulu Sebelum Bermain.</p>
+        <div id="lobby">
+            <a id="playButton" href="javascript:void(0);" onclick="startGame()">Bermain</a>
+            <a id="aboutButton" href="about.html">Tentang</a>
+        </div>
+    </main>
+    <audio id="backgroundMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <footer>
+        <p>Hak Cipta © 2024 - <a href="https://bhycerogroup.my.id">@BibingUhuyy</a></p>
+    </footer>
+
+    <script src="game/game.js"></script>
+</body>
+</html>
